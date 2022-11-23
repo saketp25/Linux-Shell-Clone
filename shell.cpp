@@ -27,7 +27,7 @@
 
 				if(line == NULL){
 
-					cout<<" Error allocating memory \n";
+					printf(" Error allocating memory \n");
 					exit(EXIT_FAILURE);
 				}
 
@@ -58,7 +58,7 @@
 
 						if (line == NULL){
 
-							cout<<"Error allocating memory \n";
+							printf("Error allocating memory \n");
 							exit(EXIT_FAILURE);
 
 						}
@@ -79,7 +79,7 @@
 
 				if(strings == NULL)
 				{
-					cout<<"error allocating memory \n";
+					printf("error allocating memory \n");
 					exit(EXIT_FAILURE);
 				}
 
@@ -99,7 +99,7 @@
 
 						if(strings == NULL)
 						{
-							cout<<"error allocating memory \n";
+							printf("error allocating memory \n");
 							exit(EXIT_FAILURE);
 						}
 					}
